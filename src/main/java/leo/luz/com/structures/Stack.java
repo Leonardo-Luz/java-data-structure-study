@@ -1,5 +1,7 @@
 package leo.luz.com.structures;
 
+import java.util.Arrays;
+
 @SuppressWarnings("unchecked")
 public class Stack<T> {
     private int size;
@@ -47,11 +49,16 @@ public class Stack<T> {
         return this.qty == this.size;
     }
 
-    public int getSize() {
-        return size;
+    public int size() {
+        return qty;
     }
 
-    public int getQty() {
-        return qty;
+    @Override
+    public String toString() {
+        return "Stack{"
+            + "size=" + size
+            + ", qty=" + qty
+            + ", list=" + Arrays.toString(list)
+            + '}';
     }
 }
