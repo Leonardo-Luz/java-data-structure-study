@@ -104,7 +104,8 @@ public class LinkedList<T> {
             current = current.next;
         }
 
-        if (current.value == value) return current.value;
+        if (current.value == value)
+            return current.value;
 
         return null;
     }
@@ -117,9 +118,8 @@ public class LinkedList<T> {
             count++;
         }
 
-        System.out.println(this.toString());
-
-        if (count == index) return current.value;
+        if (count == index)
+            return current.value;
 
         return null;
     }
@@ -142,15 +142,15 @@ public class LinkedList<T> {
     }
 
     public int getQty() {
-            return qty;
+        return qty;
     }
 
     public T getHead() {
-            return head.value;
+        return head.value;
     }
 
     public T getTail() {
-            return tail.value;
+        return tail.value;
     }
 
     @Override
