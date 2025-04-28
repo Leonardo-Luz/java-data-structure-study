@@ -4,27 +4,28 @@ This repository contains implementations of various data structures and algorith
 
 ### Structure Implemented
 
-| Structure                | Implemented | Tested | Revised | Notes                                  |
-|--------------------------|:-----------:|:------:|:-------:|----------------------------------------|
-| Queue                    | ✓           | ✓      | ✘       |                                        |
-| Stack                    | ✓           | ✓      | ✘       |                                        |
-| Linked List              | ✓           | ✓      | ✘       |                                        |
-| Binary Tree              | ✘           | ✘      | ✘       |                                        |
-| Binary Search Tree (BST) | ✘           | ✘      | ✘       |                                        |
-| Heap                     | ✘           | ✘      | ✘       |                                        |
-| Hash Table               | ✘           | ✘      | ✘       |                                        |
-| Graph                    | ✘           | ✘      | ✘       |                                        |
-| Trie                     | ✘           | ✘      | ✘       |                                        |
+| Structure                  | Implemented | Tested | Revised | Notes                                  |
+|----------------------------|:-----------:|:------:|:-------:|----------------------------------------|
+| Queue                      | ✓           | ✓      | ✘       |                                        |
+| Stack                      | ✓           | ✓      | ✘       |                                        |
+| Linked List                | ✓           | ✓      | ✘       |                                        |
+| Binary Tree                | ✘           | ✘      | ✘       |                                        |
+| Balanced Binary Tree (AVL) | ✘           | ✘      | ✘       |                                        |
+| Binary Search Tree (BST)   | ✘           | ✘      | ✘       |                                        |
+| Heap                       | ✘           | ✘      | ✘       |                                        |
+| Hash Table                 | ✘           | ✘      | ✘       |                                        |
+| Graph                      | ✘           | ✘      | ✘       |                                        |
+| Trie                       | ✘           | ✘      | ✘       |                                        |
 
 ### Sorts Implemented
 
 | Sort Algorithm  | Implemented | Tested | Revised | Notes                              |
 |-----------------|:-----------:|:------:|:-------:|------------------------------------|
-| Bubble Sort     | ✘           | ✘      | ✘       |                                    |
+| Bubble Sort     | ✓           | ✓      | ✘       |                                    |
 | Insertion Sort  | ✘           | ✘      | ✘       |                                    |
 | Selection Sort  | ✘           | ✘      | ✘       |                                    |
 | Merge Sort      | ✘           | ✘      | ✘       |                                    |
-| Quick Sort      | ✘           | ✘      | ✘       |                                    |
+| Quick Sort      | ✓           | ✓      | ✓       |                                    |
 | Heap Sort       | ✘           | ✘      | ✘       |                                    |
 
 ### Searches Implemented
